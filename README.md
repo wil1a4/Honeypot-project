@@ -74,17 +74,22 @@ This project involves deploying the T-Pot honeypot on a Microsoft Azure virtual 
 
 10. **Analyze Threat Data**
    - Use the T-Pot dashboard to monitor and analyze incoming attack data.
+
      ![1 6](https://github.com/wil1a4/Honeypot-project/assets/129964763/5ee09f6c-effc-4ce0-aaf4-3a6d285845d7)
     
 11. **Attack map surface**
+
     ![1 8](https://github.com/wil1a4/Honeypot-project/assets/129964763/32e7737d-869d-4bc9-9a06-bdaafa977cc6)
 
-12. **Honeytrap kibana dashboard** 
-      ![2 5](https://github.com/wil1a4/Honeypot-project/assets/129964763/b4e0b042-0c2f-4b3b-a769-b66dcdad171c)
+13. **Honeytrap kibana dashboard** 
 
-      ![2 6](https://github.com/wil1a4/Honeypot-project/assets/129964763/b9b0f7f5-d8ca-49ff-922d-92d5b3b9f596)
+    ![2 5](https://github.com/wil1a4/Honeypot-project/assets/129964763/b4e0b042-0c2f-4b3b-a769-b66dcdad171c)
 
-13.  **Security meter**
+    ![2 6](https://github.com/wil1a4/Honeypot-project/assets/129964763/b9b0f7f5-d8ca-49ff-922d-92d5b3b9f596)
+
+14.  **Security meter**
+
+     ![2 8](https://github.com/wil1a4/Honeypot-project/assets/129964763/34551ed6-9482-4278-92d1-e6d4809ef31a)
       
 ## Troubleshooting
 
@@ -98,8 +103,5 @@ By completing this project, you have successfully deployed a honeypot on a cloud
 
 Feel free to contribute to this project by forking the repository and submitting pull requests!
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 
