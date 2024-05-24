@@ -52,12 +52,26 @@ This project involves deploying the T-Pot honeypot on a Microsoft Azure virtual 
 
 5. **Configure Network Security Group**
    - Add inbound port rules for necessary ports (e.g., 64295 for SSH, 80 and 443 for web access) in the Azure Portal.
-   
+   ![2 3](https://github.com/wil1a4/Honeypot-project/assets/129964763/72c29766-6da3-4cf7-893e-15373765f99f)
 
-6. **Access T-Pot Web Interface**
+6. **Remove lock files**
+   ```sh
+     sudo rm /var/lib/dpkg/lock-frontend
+     sudo rm /var/lib/dpkg/lock
+   
+7. **Reconfigure Dpkg**
+   ```sh
+     sudo dpkg --configure -a
+
+8. **Update the Package Lists and Installation of Packages using apt-get with Configuration Options**
+    ```sh
+      sudo apt update
+      sudo /usr/bin/apt-get -y -o "Dpkg::Options::=--force-confdef" -o "Dpkg::Options::=--force-confold" install 'gnupg' 'grc' 'htop' 'micro'
+    
+9. **Access T-Pot Web Interface**
    - After installation, reboot the VM and access the T-Pot web interface using the VM's public IP address and the appropriate port (default is `64297`).
 
-7. **Analyze Threat Data**
+11. **Analyze Threat Data**
    - Use the T-Pot dashboard to monitor and analyze incoming attack data.
 
 ## Troubleshooting
