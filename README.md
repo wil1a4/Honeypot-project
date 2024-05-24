@@ -39,15 +39,14 @@ This project involves deploying the T-Pot honeypot on a Microsoft Azure virtual 
      ```sh
      ssh -i mykey.pem azureuser@your_vm_ip
      ```
+     
 
 3. **Install T-Pot**
    - Update the package list and install required dependencies:
      ```sh
      sudo apt update && sudo apt upgrade -y
      ```
-     sudo apt update && sudo apt upgrade -y: <br/>
-     <img src="https://imgur.com/yRtwONQ" height="80%" width="80%"/>
-     <br />
+     ![1 1](https://github.com/wil1a4/Honeypot-project/assets/129964763/dc7fa752-2804-4a53-bd46-79cd8c6f0684)
    - Follow the [official T-Pot installation guide](https://github.com/telekom-security/tpotce) to install T-Pot.
 
 4. **Configure Network Security Group**
