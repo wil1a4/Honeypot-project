@@ -78,7 +78,8 @@ This project involves deploying the T-Pot honeypot on a Microsoft Azure virtual 
     **Attack map surface**
     ![1 8](https://github.com/wil1a4/Honeypot-project/assets/129964763/32e7737d-869d-4bc9-9a06-bdaafa977cc6)
 
-   **cowrie kibana dashboard** 
+   **Honeytrap kibana dashboard** 
+   ![2 5](https://github.com/wil1a4/Honeypot-project/assets/129964763/b4e0b042-0c2f-4b3b-a769-b66dcdad171c)
     
 
 ## Troubleshooting
