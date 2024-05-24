@@ -70,19 +70,22 @@ This project involves deploying the T-Pot honeypot on a Microsoft Azure virtual 
     
 9. **Access T-Pot Web Interface**
    - After installation, reboot the VM and access the T-Pot web interface using the VM's public IP address and the appropriate port (default is `64297`).
+     
 
 10. **Analyze Threat Data**
    - Use the T-Pot dashboard to monitor and analyze incoming attack data.
      ![1 6](https://github.com/wil1a4/Honeypot-project/assets/129964763/5ee09f6c-effc-4ce0-aaf4-3a6d285845d7)
     
-    **Attack map surface**
+11. **Attack map surface**
     ![1 8](https://github.com/wil1a4/Honeypot-project/assets/129964763/32e7737d-869d-4bc9-9a06-bdaafa977cc6)
 
-   **Honeytrap kibana dashboard** 
-   ![2 5](https://github.com/wil1a4/Honeypot-project/assets/129964763/b4e0b042-0c2f-4b3b-a769-b66dcdad171c)
+12. **Honeytrap kibana dashboard** 
+      ![2 5](https://github.com/wil1a4/Honeypot-project/assets/129964763/b4e0b042-0c2f-4b3b-a769-b66dcdad171c)
 
-   ![2 6](https://github.com/wil1a4/Honeypot-project/assets/129964763/b9b0f7f5-d8ca-49ff-922d-92d5b3b9f596)
+      ![2 6](https://github.com/wil1a4/Honeypot-project/assets/129964763/b9b0f7f5-d8ca-49ff-922d-92d5b3b9f596)
 
+13.  **Security meter**
+      
 ## Troubleshooting
 
 - **SSH Access**: Verify the correct SSH port and ensure your private key has appropriate permissions.
