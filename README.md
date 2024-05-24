@@ -73,7 +73,10 @@ This project involves deploying the T-Pot honeypot on a Microsoft Azure virtual 
 
 11. **Analyze Threat Data**
    - Use the T-Pot dashboard to monitor and analyze incoming attack data.
-     
+     ![1 6](https://github.com/wil1a4/Honeypot-project/assets/129964763/5ee09f6c-effc-4ce0-aaf4-3a6d285845d7)
+    
+    **Attack map surface**
+    
 
 ## Troubleshooting
 
