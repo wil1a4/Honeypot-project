@@ -73,6 +73,7 @@ This project involves deploying the T-Pot honeypot on a Microsoft Azure virtual 
 
 11. **Analyze Threat Data**
    - Use the T-Pot dashboard to monitor and analyze incoming attack data.
+     
 
 ## Troubleshooting
 
