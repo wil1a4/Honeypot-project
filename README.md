@@ -39,7 +39,7 @@ This project involves deploying the T-Pot honeypot on a Microsoft Azure virtual 
      ```sh
      ssh -i mykey.pem azureuser@your_vm_ip
      ```
-     
+     ![1 01](https://github.com/wil1a4/Honeypot-project/assets/129964763/23b0614e-f271-4721-8daf-b7fa3c6babcd)
 
 3. **Install T-Pot**
    - Update the package list and install required dependencies:
@@ -47,15 +47,17 @@ This project involves deploying the T-Pot honeypot on a Microsoft Azure virtual 
      sudo apt update && sudo apt upgrade -y
      ```
      ![1 1](https://github.com/wil1a4/Honeypot-project/assets/129964763/dc7fa752-2804-4a53-bd46-79cd8c6f0684)
+
    - Follow the [official T-Pot installation guide](https://github.com/telekom-security/tpotce) to install T-Pot.
 
-4. **Configure Network Security Group**
+5. **Configure Network Security Group**
    - Add inbound port rules for necessary ports (e.g., 64295 for SSH, 80 and 443 for web access) in the Azure Portal.
+   
 
-5. **Access T-Pot Web Interface**
+6. **Access T-Pot Web Interface**
    - After installation, reboot the VM and access the T-Pot web interface using the VM's public IP address and the appropriate port (default is `64297`).
 
-6. **Analyze Threat Data**
+7. **Analyze Threat Data**
    - Use the T-Pot dashboard to monitor and analyze incoming attack data.
 
 ## Troubleshooting
